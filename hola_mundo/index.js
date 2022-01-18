@@ -9,7 +9,8 @@
 
 
 //  Funcion asincrona
-let i=0;
+
+/*let i=0;
 function soyAsincrona(miCallback){
     console.log("soy una funcion asincrona")
     setTimeout(() => {
@@ -22,4 +23,14 @@ function soyAsincrona(miCallback){
 console.log('iniciando proceso . . .')
 soyAsincrona(function(){
     console.log('terminando proceso . . .')
-});
+});*/
+
+var contador =2
+var na = "na"
+
+while(contador){
+    na+=na
+    contador-=1
+}
+
+console.log(na + "Fredi")
